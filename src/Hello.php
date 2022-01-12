@@ -15,4 +15,9 @@ class Hello
         $x++;
         return $x;
     }
+
+    public function hello($message) 
+    {
+        return $message;
+    }
 }
